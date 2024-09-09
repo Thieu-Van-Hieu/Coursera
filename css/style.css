@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, nav, main, footer {
+    background-color: #fff;
+}
+
+body, main, h1 {
+    font-size: medium;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+/* li {
+    display: block;
+    color: #000;
+} */
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+p {
+    line-height: normal;
+}
+
+main {
+    display: flex;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+main div img {
+    width: 100%;
+}
